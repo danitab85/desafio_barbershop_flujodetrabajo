@@ -1,0 +1,48 @@
+/* Base Typography*/
+body {
+    font-size: 16px;
+}
+
+a {
+    font-family: $roboto;
+    font-weight: $regular;
+}
+
+h1 {
+    font-family: $playfair;
+    font-weight: $black-italic;
+    font-size: $xx-large;
+}
+
+span .main__date {
+    font-family: $playfair;
+    font-weight: $regular;
+    font-size: $large;
+}
+
+p {
+    font-family: $roboto;
+    font-weight: $regular;
+}
+
+h4 {
+    font-family: $playfair;
+    font-weight: $black-italic;
+    font-size: $x-large;
+}
+
+.main__twitter {
+    font-family: $roboto;
+    font-weight: $light;
+}
+
+small {
+    font-family: $roboto;
+    font-weight: $light;
+    font-size: $small;
+}
+
+
+
+
+

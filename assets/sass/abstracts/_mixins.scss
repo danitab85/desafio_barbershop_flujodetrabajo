@@ -1,0 +1,66 @@
+/* Banner */
+
+.main__banner {
+    background-image: url(../../images/post-image.jpg);
+    height: calc(100vh - 65px);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 100%;
+    position: relative;    
+
+    .main__container-title{    
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        top: 25%;
+                
+        .main__title{
+            font-family: $playfair;
+            font-weight: $black-italic;
+            font-style: italic; 
+            color: $white;       
+            text-align: center; 
+            width: 700px;
+            margin: 0 auto;          
+        }
+    }
+
+    .main__icon {       
+        bottom: 5px;
+        position: absolute;
+        right: 50%;    
+        font-size: $x-large;
+        color: $white;        
+    }         
+}
+
+
+
+
+    
+@media (max-width:767px) {
+    .main__banner{
+        background-image: url(../../images/post-image.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        .main__title{
+            font-family: $playfair;
+            font-weight: $black-italic;
+            font-style: italic; 
+            font-size: 40px;       
+            max-width: 290px;
+            margin-top: 30px;
+        }
+        
+        .main__icon {       
+            bottom: 5px;
+            position: absolute;
+            right: 50%;    
+            font-size: $x-large;
+            color: $white;        
+        }
+    }     
+}
+

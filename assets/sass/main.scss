@@ -1,0 +1,26 @@
+// main.scss #Manifest File
+
+// abstracts
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+
+// Vendors
+
+// Base
+@import 'base/reset';
+@import 'base/typogrhapy';
+@import 'base/base';
+
+// Layout
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/footer';
+
+// Components
+@import 'components/buttons';
+@import 'components/links';
+@import 'components/pagination';
+
+// Pages
+
+//Theme

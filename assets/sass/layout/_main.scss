@@ -1,0 +1,82 @@
+.main__text, .main__sobremi {
+    margin-top: 80px;
+    text-align: justify;
+    
+}
+
+.main__date {
+    font-family: $playfair;    
+    color: $nickel;           
+}
+
+p {
+    font-family: $roboto;
+    color: $nickel;
+    line-height: 3;
+    margin-top: 30px;
+
+    span {
+        color: $spanish-pink;
+    }
+}
+
+
+.main__autor {
+    padding: 60px 50px;
+
+    &-retrato{
+        text-align: center;
+    }
+
+    &-image{
+        border-radius: 100%;
+        width: 170px;
+        height: auto;
+    }
+
+    &-link{
+        display: block;
+        color: $ruddy-pink !important;
+        
+    }
+
+    &-name {
+        color: $eerie-black;
+        font-family: $playfair;
+        font-weight: $black-italic;
+        font-size:  $x-large;
+        font-style: italic;
+    }
+
+}
+
+.main__contact {
+    height: 250px;
+    margin-top: 40px;    
+}
+
+.main__autor-description {
+    line-height: 2;
+    margin-top: 40px;
+    font-family: $roboto;
+    color: $nickel;
+}
+
+
+
+
+@media (max-width:767px) {
+
+    .main__text, .main__sobremi {
+        margin-top: 30px;
+        text-align: justify;
+        margin: 30px;
+    }
+
+    .main__contact {
+        height: 250px;
+        margin-top: 40px;
+        text-align: center;
+        height: 150px;
+    }
+}

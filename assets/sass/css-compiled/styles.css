@@ -1,0 +1,299 @@
+/* Banner */
+.main__banner {
+  background-image: url(../../images/post-image.jpg);
+  height: calc(100vh - 65px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+}
+.main__banner .main__container-title {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 25%;
+}
+.main__banner .main__container-title .main__title {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-style: italic;
+  color: #FFF;
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+.main__banner .main__icon {
+  bottom: 5px;
+  position: absolute;
+  right: 50%;
+  font-size: 30px;
+  color: #FFF;
+}
+
+@media (max-width: 767px) {
+  .main__banner {
+    background-image: url(../../images/post-image.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .main__banner .main__title {
+    font-family: "Playfair Display";
+    font-weight: 900;
+    font-style: italic;
+    font-size: 40px;
+    max-width: 290px;
+    margin-top: 30px;
+  }
+  .main__banner .main__icon {
+    bottom: 5px;
+    position: absolute;
+    right: 50%;
+    font-size: 30px;
+    color: #FFF;
+  }
+}
+/* Reset*/
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Base Typography*/
+body {
+  font-size: 16px;
+}
+
+a {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 70px;
+}
+
+span .main__date {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p {
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+h4 {
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 30px;
+}
+
+.main__twitter {
+  font-family: "Roboto";
+  font-weight: 300;
+}
+
+small {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 12px;
+}
+
+/* Header Layout */
+.navigation__logo {
+  width: 120px;
+}
+
+.navigation__list {
+  float: right;
+}
+
+.main__text, .main__sobremi {
+  margin-top: 80px;
+  text-align: justify;
+}
+
+.main__date {
+  font-family: "Playfair Display";
+  color: #6C6E70;
+}
+
+p {
+  font-family: "Roboto";
+  color: #6C6E70;
+  line-height: 3;
+  margin-top: 30px;
+}
+p span {
+  color: #ECBCBA;
+}
+
+.main__autor {
+  padding: 60px 50px;
+}
+.main__autor-retrato {
+  text-align: center;
+}
+.main__autor-image {
+  border-radius: 100%;
+  width: 170px;
+  height: auto;
+}
+.main__autor-link {
+  display: block;
+  color: #D76C69 !important;
+}
+.main__autor-name {
+  color: #121619;
+  font-family: "Playfair Display";
+  font-weight: 900;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.main__contact {
+  height: 250px;
+  margin-top: 40px;
+}
+
+.main__autor-description {
+  line-height: 2;
+  margin-top: 40px;
+  font-family: "Roboto";
+  color: #6C6E70;
+}
+
+@media (max-width: 767px) {
+  .main__text, .main__sobremi {
+    margin-top: 30px;
+    text-align: justify;
+    margin: 30px;
+  }
+
+  .main__contact {
+    height: 250px;
+    margin-top: 40px;
+    text-align: center;
+    height: 150px;
+  }
+}
+footer {
+  height: 200px;
+}
+
+.footer__image {
+  width: 120px;
+  margin-top: 5%;
+}
+
+@media (max-width: 767px) {
+  .footer__logo {
+    width: 120px;
+    position: relative;
+    top: 50%;
+    left: 35%;
+  }
+}
+.main__button {
+  border-radius: 145px 145px 145px 145px;
+  -moz-border-radius: 145px 145px 145px 145px;
+  -webkit-border-radius: 145px 145px 145px 145px;
+  border: 0px solid #000000;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  background-color: #6C6E70;
+  border: 1px slid #6C6E70;
+  color: #FFF;
+}
+.main__button:hover {
+  background-color: #D1D1D1;
+  border: 1px solid #D1D1D1;
+  color: #FFF;
+}
+.main__button:focus {
+  background-color: #6C6E70 !important;
+  border: 1px solid #D1D1D1 !important;
+  color: #FFF !important;
+}
+
+@media (max-width: 767px) {
+  .main__buttons-container .container {
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .main__button {
+    border-radius: 145px 145px 145px 145px;
+    -moz-border-radius: 145px 145px 145px 145px;
+    -webkit-border-radius: 145px 145px 145px 145px;
+    border: 0px solid #000000;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: #6C6E70;
+    border: 1px slid #6C6E70;
+    color: #FFF;
+    font-size: 12px;
+  }
+  .main__button:hover {
+    background-color: #D1D1D1;
+    border: 1px solid #D1D1D1;
+    color: #FFF;
+  }
+  .main__button:focus {
+    background-color: #6C6E70 !important;
+    border: 1px solid #D1D1D1 !important;
+    color: #FFF !important;
+  }
+}
+.main__pagination {
+  height: 150px;
+  background-color: #D1D1D1;
+}
+
+.justify-content-center {
+  padding-top: 5%;
+}
+
+.pagination-a {
+  border-radius: 146px 0px 0px 146px !important;
+  -moz-border-radius: 146px 0px 0px 146px !important;
+  -webkit-border-radius: 146px 0px 0px 146px !important;
+  border: 1px solid !important;
+  border-color: #D1D1D1 !important;
+}
+
+.page-item.active .page-link {
+  border-color: #222323;
+  color: #FFF !important;
+  border-color: #D1D1D1 !important;
+}
+
+.page-link {
+  color: #6C6E70 !important;
+  border-color: #D1D1D1 !important;
+}
+
+.pagination-s {
+  border-radius: 0px 146px 146px 0px !important;
+  -moz-border-radius: 0px 146px 146px 0px !important;
+  -webkit-border-radius: 0px 146px 146px 0px !important;
+  border: 1px solid !important;
+  border-color: #D1D1D1 !important;
+}
+
+@media (max-width: 767px) {
+  .justify-content-center {
+    padding-top: 14%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

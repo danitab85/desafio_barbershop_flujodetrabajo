@@ -1,0 +1,20 @@
+footer {
+    height: 200px;
+    
+}
+
+.footer__image {
+    width: 120px;
+    margin-top: 5%;
+}
+
+@media (max-width:767px) {
+    .footer__logo {
+        width: 120px;   
+        position: relative;      
+        top: 50%;
+        left: 35%;           
+    }
+
+   
+}
